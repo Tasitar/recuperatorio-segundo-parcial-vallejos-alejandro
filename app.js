@@ -16,5 +16,11 @@ const connectDB = async () =>{
         console.log('hola soy la base de datos y estoy conectada ;D')
 
         await sequelize.sync({alter: true});
+        console.log("modelos sincronizados con la BD :p")
+    }
+    catch (error){
+        console.error('Error al conectarse o sincronizar con la BD >:V')
     }
 }
+
+connectDB()
