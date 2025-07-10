@@ -9,7 +9,7 @@ export const connectDB = new Sequelize(
     process.env.DB_PASSWORD,
     {
         host: process.env.DB_HOST,
-        dialac: process.env.DB_DIALECT,
+        dialect: process.env.DB_DIALECT,
     }
 )
 
