@@ -15,7 +15,7 @@ export const Language = sequelize.define(
     type: DataTypes.STRING,
     allowNull: false,
     unique: true,
-    },
+    }, 
 
     paradigm: {
     type: DataTypes.STRING,
