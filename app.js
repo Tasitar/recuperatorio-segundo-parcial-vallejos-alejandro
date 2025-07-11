@@ -10,6 +10,8 @@ const app = express()
 
 app.use(express.json());
 
+app.use("/api/language", lenguageRoutes)
+
 app.listen(process.env.PORT, ()=>
     console.log("hola soy el server y estoy prendido Bv")
 )

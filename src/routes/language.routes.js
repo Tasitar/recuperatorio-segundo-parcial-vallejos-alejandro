@@ -5,7 +5,7 @@ getById,
 createLanguage,
 updateLanguage,
 deleteLanguage
-} from "../controllers/languageController.js";
+} from "../controllers/language.controllers.js";
 
 const router = Router();
 
